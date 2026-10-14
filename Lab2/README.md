@@ -1,6 +1,12 @@
-# Lab 2
+# Lab 2 - Search Algorithms
 
-This folder contains the search algorithms lab work.
+This lab covers BFS, DFS, uniform-cost search, and A*.
 
-## Contents
-- SearchAlgorithms notebook
+## Included files
+- `search_algorithms.py` contains a working implementation of the main graph-search algorithms.
+
+## Run
+
+```bash
+python3 Lab2/search_algorithms.py
+```
