@@ -1,6 +1,12 @@
-# Lab 3
+# Lab 3 - Data Preprocessing
 
-This folder contains the data preprocessing lab work.
+This lab shows how to clean missing values, encode categorical data, and scale numerical features.
 
-## Contents
-- DataPreprocessing notebook
+## Included files
+- `data_preprocessing.py` demonstrates a complete preprocessing workflow using pandas and scikit-learn.
+
+## Run
+
+```bash
+python3 Lab3/data_preprocessing.py
+```
