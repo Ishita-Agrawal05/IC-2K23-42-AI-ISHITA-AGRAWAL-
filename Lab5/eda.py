@@ -2,7 +2,7 @@
 
 from __future__ import annotations
 
-import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt      
 import pandas as pd
 import seaborn as sns
 
@@ -32,11 +32,12 @@ def run_eda() -> pd.DataFrame:
 
     plt.figure(figsize=(8, 6))
     sns.scatterplot(data=df, x="marketing", y="sales")
-    plt.title("Marketing vs Sales")
+    plt.title("Marketing vs Sales")  #marketing vs sales
     plt.tight_layout()
     plt.show()
 
     return df
+
 
 
 def main() -> None:
